@@ -263,6 +263,6 @@ If you like this project, please ⭐ star this repository!
 ---
 
 
-**© 2024 Bangladesh Army University of Engineering & Technology**
+**Star this repository if you found it helpful!**
 ### Made with ❤️ by Electra51
 Happy Coding! 🚀
