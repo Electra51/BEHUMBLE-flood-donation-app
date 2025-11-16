@@ -1,164 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donating website</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!--Section 1st-->
-    <section class="container">
-        <div class="header">
-            <h1>Let’s Help Those Who Are <br>
-                More In Need  </h1> <br>
-                <p >Millions of people across Bangladesh are left stranded <br> due to monsoon floods. </p>
-               
-           
-            <a target="_blank" href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/" class="btn">
-                Donate Now
-            </a>
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Help flood-affected families in Bangladesh. Donate today to provide life-saving support." />
+    <title>Bangladesh Flood Relief - Donate Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Lobster&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo"
+          ><img src="./images/logo.svg" alt="project logo" /> Be Humble</a
+        >
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#donate" class="nav-link">Donate</a></li>
+          <li><a href="#plans" class="nav-link">Our Plans</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
+      </div>
+    </nav>
 
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Let's Help Those Who Are More In Need</h1>
+        <p class="hero-text">
+          Millions of people across Bangladesh are left stranded due to monsoon
+          floods. Your support can save lives and rebuild hope.
+        </p>
+        <a href="#donate" class="btn">Donate Now</a>
+      </div>
     </section>
 
-
-<!--Section second-->
-    <section class="second">
-        <h1>Donate Today </h1>
-        <p class="para">Thousands of family is flood affected, lost their houses donate today to <br> our Bangladesh to provide life-saving support.</p>
-
-        <div class="row">
-            
-                <h2 class="first-value">100tk</h2>
-                <h2 class="second-value">200tk</h2>
-                <h2 class="third-value">500tk</h2>
-                <h2 class="forth-value">1000tk</h2>
-                <h2 class="fifth-value">5000tk</h2>
-            
-
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3>15K+</h3>
+            <p>Families Helped</p>
+          </div>
+          <div class="stat-item">
+            <h3>৳5M+</h3>
+            <p>Funds Raised</p>
+          </div>
+          <div class="stat-item">
+            <h3>50+</h3>
+            <p>Districts Covered</p>
+          </div>
+          <div class="stat-item">
+            <h3>100+</h3>
+            <p>Active Volunteers</p>
+          </div>
         </div>
-        <h3>Other amount(taka)</h3>
-        <hr>
-        <a target="_blank" href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/" class="btn">
-            Donate Now
-        </a>
+      </div>
+    </section>
 
-     </section>
+    <section class="donate-section section" id="donate">
+      <div class="container">
+        <h2 class="section-title">Donate Today</h2>
+        <p class="section-subtitle">
+          Thousands of families are flood affected and lost their houses. Donate
+          today to provide life-saving support to our Bangladesh.
+        </p>
 
-<!--Section third-->
-
-     <section class="third">
-        <h1>Our Donate Plan </h1>
-        <p class="para">Our Sylhet Aid team will handout relief packages to affect homes which includes <br> food packs and boats for essential travelling.</p>
-       <div id="content">
-
-
-        <div class="col-one">
-            <img src="icons/icon3.svg" alt="">
-            <h3 class="head">Medicine for a Family</h3>
-            <p>The money will be used to provide dry food, safe drinking water, oral saline, matches, candles, essential medicines and other services to people affected by flood.</p>
-        </div>
-
-        <div class="col-two">
-            <img src="icons/icon2.svg" alt="">
-            <h3 class="head">Shelter for a family</h3>
-            <p>The money will be used to provide dry food, safe drinking water, oral saline, matches, candles, essential medicines and other services to people affected by flood.</p>
-
+        <div class="donation-amounts">
+          <button class="amount-btn" data-amount="100">৳100</button>
+          <button class="amount-btn active" data-amount="200">৳200</button>
+          <button class="amount-btn" data-amount="500">৳500</button>
+          <button class="amount-btn" data-amount="1000">৳1000</button>
+          <button class="amount-btn" data-amount="5000">৳5000</button>
         </div>
 
-        <div class="col-three">
-            <img src="icons/icon1.svg" alt="">
-            <h3 class="head">Education for a child</h3>
-            <p>The money will be used to provide dry food, safe drinking water, oral saline, matches, candles, essential medicines and other services to people affected by flood.</p>
-
+        <div class="custom-amount">
+          <input
+            type="number"
+            id="customAmount"
+            placeholder="Other amount (Taka)"
+            min="10" />
         </div>
 
-       </div>
+        <div style="text-align: center">
+          <button class="btn" id="donateBtn">Donate Now</button>
+        </div>
+      </div>
+    </section>
 
+    <section class="section" id="plans">
+      <div class="container">
+        <h2 class="section-title">Our Donate Plan</h2>
+        <p class="section-subtitle">
+          Our Sylhet Aid team will handout relief packages to affected homes
+          which includes food packs, medicines, and boats for essential
+          travelling.
+        </p>
 
-     </section>
+        <div class="plans-grid">
+          <div class="plan-card">
+            <div class="plan-icon">💊</div>
+            <h3>Medicine for a Family</h3>
+            <p>
+              The money will be used to provide dry food, safe drinking water,
+              oral saline, matches, candles, essential medicines and other
+              services to people affected by flood.
+            </p>
+          </div>
+          <div class="plan-card">
+            <div class="plan-icon">🏠</div>
+            <h3>Shelter for a Family</h3>
+            <p>
+              Providing temporary shelter, emergency housing materials, and
+              support to rebuild homes for families who lost everything in the
+              devastating floods.
+            </p>
+          </div>
+          <div class="plan-card">
+            <div class="plan-icon">📚</div>
+            <h3>Education for a Child</h3>
+            <p>
+              Supporting children's education by providing books, school
+              supplies, and ensuring they can continue their studies despite the
+              disaster's impact.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--Section forth-->
+    <section class="impact-section section">
+      <div class="container">
+        <h2 class="section-title">Our Impact</h2>
+        <p class="section-subtitle">
+          See how your donations are making a real difference in the lives of
+          flood-affected families.
+        </p>
 
-     <section class="forth">
-        <div class="sec-forth">
-            <div class="team">
-           
-                
-                    <h1>Our team</h1>
-                    <hr>
-                    <br>
-                    <p class="forth-para">We're an innovate and also helping group to help poor people .  </p>
-                    <a target="_blank" href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/" class="btn">
-                        Contact Us
-                    </a>
-            </div>
-            <div class="image">
-               
-                <img src="images/donation2.jpg" alt="">
-    
-            </div>
-    
-            <div class="goal">
-                <h1>Our Goal</h1>
-                <br>
-                <hr>
-                <p class="forth-para">Helping the needy and bringing them back to their normal lives, extending a helping hand to the poor.</p>
-                <a target="_blank" href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/" class="btn">
-                    Read More
-                </a>
-             
-    
-            </div>
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-icon">🍚</div>
+            <h4>25,000+</h4>
+            <p>Meals Distributed</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">💧</div>
+            <h4>10,000+</h4>
+            <p>Clean Water Provided</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🏥</div>
+            <h4>5,000+</h4>
+            <p>Medical Treatments</p>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">👶</div>
+            <h4>3,000+</h4>
+            <p>Children Supported</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <h3>Our Team</h3>
+            <p>
+              We're an innovative and dedicated helping group committed to
+              supporting people in need. Our team works tirelessly on the ground
+              to ensure every donation reaches those who need it most.
+            </p>
+            <a href="#contact" class="btn">Contact Us</a>
+          </div>
+          <div class="about-image">
+            <img
+              src="./images/flood.jpg"
+              alt="Our Team"
+              style="width: 100%; height: 400px; object-fit: cover" />
+          </div>
+          <div class="about-image">
+            <img
+              src="./images/donation2.jpg"
+              alt="Our Goal"
+              style="width: 100%; height: 400px; object-fit: cover" />
+          </div>
+          <div class="about-image">
+            <img
+              src="./images/flood2.jpg"
+              alt="Our Goal"
+              style="width: 100%; height: 400px; object-fit: cover" />
+          </div>
+          <div class="about-image">
+            <img
+              src="./images/donation1.jpg"
+              alt="Our Goal"
+              style="width: 100%; height: 400px; object-fit: cover" />
+          </div>
+          <div class="about-content">
+            <h3>Our Goal</h3>
+            <p>
+              Helping the needy and bringing them back to their normal lives,
+              extending a helping hand to the poor. We aim to provide
+              sustainable solutions for long-term recovery.
+            </p>
+            <a href="#plans" class="btn btn-secondary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section section">
+      <div class="container">
+        <h2 class="section-title">What People Say</h2>
+        <p class="section-subtitle">
+          Hear from the families we've helped and volunteers who've witnessed
+          the impact firsthand.
+        </p>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              This organization helped my family when we lost everything in the
+              flood. Their quick response saved our lives. Forever grateful!
+            </p>
+            <p class="testimonial-author">— Rahima Begum, Sylhet</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              As a volunteer, I've seen how efficiently they work. Every
+              donation truly makes a difference. Proud to be part of this
+              mission.
+            </p>
+            <p class="testimonial-author">— Kamal Hossain, Volunteer</p>
+          </div>
+          <div class="testimonial-card">
+            <p class="testimonial-text">
+              They provided medicine and food when we had nothing. Their
+              compassion and dedication are remarkable. May Allah bless them.
+            </p>
+            <p class="testimonial-author">— Abdul Rahman, Sunamganj</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get My Updates</h2>
+        <p class="section-subtitle">
+          Stay informed about our relief efforts. Subscribe to receive updates
+          about how your donations are making a difference.
+        </p>
+
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>Contact Info</h3>
+            <ul>
+              <li>📍 Dhaka, Bangladesh</li>
+              <li>📧 info@behumble.org</li>
+              <li>📞 +880 1234-567890</li>
+              <li>⏰ 24/7 Emergency Support</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Donation Policy</a></li>
+              <li><a href="#">Transparency Report</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#donate">Donate</a></li>
+              <li><a href="#plans">Our Plans</a></li>
+              <li><a href="#about">About Us</a></li>
+            </ul>
+          </div>
         </div>
 
+        <div class="footer-bottom">
+          <h2 class="footer-brand">
+            <img
+              src="./images/logo.svg"
+              alt="project logo"
+              class="logo-footer" />
+            Be Humble
+          </h2>
+          <p>
+            © 2025 Be Humble Foundation. All rights reserved. | Made by Safayet
+            Nur Electra
+          </p>
+        </div>
+      </div>
+    </footer>
 
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
 
-     </section>
-
-<!--Section fifth-->
-
-
-<section class="fifth">
-<div>
-
-    <h1>Get My Updates </h1>
-        <p class="para">Thousands of family is flood affected, lost their houses donate today to <br> our Bangladesh to provide life-saving support.</p>
-</div>
-<div class="subscribe">
-<input class="email"  type="email" value="Email">
-<a target="_blank" href="https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/" class="btn-new">Subscribe</a>
-
-</div>
-
-</section>
-
-
-
-<!--footer-->
-<footer>
-    <h2 class="footer-header">Be Humble</h2>
-   
-<p class="footer-para"> I’m gonna do it</p>
-
-</footer>
-
-
-
-
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
