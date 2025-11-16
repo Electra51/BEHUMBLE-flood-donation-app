@@ -9,7 +9,7 @@
   
   **A modern, fully responsive donation website designed to help flood-affected families in Bangladesh. Built with clean code, smooth animations, and an intuitive user experience.**
   
-  [Live Demo]([https://bauet-student-attendance-system.vercel.app/](https://electra51.github.io/BEHUMBLE-flood-donation-app/)) · [Report Bug](https://github.com/electra51/BAUET-Student-Attendance-System/issues) · [Request Feature](https://github.com/electra51/BAUET-Student-Attendance-System/issues)
+  [Live Demo](https://electra51.github.io/BEHUMBLE-flood-donation-app/) · [Report Bug](https://github.com/electra51/BAUET-Student-Attendance-System/issues) · [Request Feature](https://github.com/electra51/BAUET-Student-Attendance-System/issues)
 
 </div>
 
