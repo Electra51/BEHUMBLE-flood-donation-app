@@ -1,6 +1,5 @@
 # Be Humble - Bangladesh Flood Relief Donation Website
 
-
 <div align="start">
   
   ![Blendify Banner](https://img.shields.io/badge/BEHUMBLE%20-Donation%20Website-6C63FF?style=for-the-badge)
@@ -13,35 +12,31 @@
 
 </div>
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Responsive](https://img.shields.io/badge/Responsive-Design-green?style=for-the-badge)](https://web.dev/responsive-web-design-basics/)
 ---
 
 ## Preview
 
-![Hero Section](https://via.placeholder.com/800x400/e74c3c/ffffff?text=Hero+Section+Preview)
-
-*Transform lives through your generous donations*
+<div align="start">
+  <img src="screenshots/home.png" alt="Home Page Preview" width="800"/>
+</div>
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- **💳 Interactive Donation System** - Dynamic amount selection with preset and custom options
-- **📊 Real-time Statistics** - Animated counters showing impact (15K+ families helped, ৳5M+ raised)
-- **🎯 Multiple Donation Plans** - Medicine, Shelter, and Education support categories
-- **📱 Fully Responsive** - Seamless experience across all devices (mobile, tablet, desktop)
-- **🎨 Modern UI/UX** - Clean design with smooth animations and hover effects
-- **📬 Newsletter Integration** - Stay updated with relief efforts
-- **💬 Testimonials Section** - Real stories from beneficiaries
-- **♿ Accessibility Focused** - Semantic HTML and ARIA labels for screen readers
+- **Interactive Donation System** - Dynamic amount selection with preset and custom options
+- **Real-time Statistics** - Animated counters showing impact (15K+ families helped, ৳5M+ raised)
+- **Multiple Donation Plans** - Medicine, Shelter, and Education support categories
+- **Fully Responsive** - Seamless experience across all devices (mobile, tablet, desktop)
+- **Modern UI/UX** - Clean design with smooth animations and hover effects
+- **Newsletter Integration** - Stay updated with relief efforts
+- **Testimonials Section** - Real stories from beneficiaries
+- **Accessibility Focused** - Semantic HTML and ARIA labels for screen readers
 
 ---
 
-## 🚀 Google Lighthouse Score
+## Google Lighthouse Score
 
 | Category | Score |
 |----------|-------|
@@ -52,7 +47,7 @@
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -67,29 +62,31 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-flood-relief-donation/
+behumble/
 │
-├── index.html          # Main HTML file with embedded CSS & JS
-├── README.md           # Project documentation
+├── index.html
+├── index.js
+├── style.css           
+├── README.md          
 │
-├── assets/            # (Optional - if using external files)
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── script.js
-│   └── images/
-│       └── ...
+├── images/
+│   ├── flood.jpg
+│   ├── flood2.jpg       
+│   ├── donation1.jpg
+│   ├── donation2.jpg
+│   └── logo.svg      
 │
-└── screenshots/       # Project screenshots
-    └── ...
+└── screenshots/       
+    ├── homepage.png
+    └── hero.png
 ```
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A modern web browser (Chrome, Firefox, Safari, Edge)
@@ -99,7 +96,7 @@ flood-relief-donation/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/flood-relief-donation.git
+   git clone https://github.com/Electra51/flood-relief-donation.git
    ```
 
 2. **Navigate to the project directory**
@@ -108,22 +105,11 @@ flood-relief-donation/
    ```
 
 3. **Open in browser**
-   - Simply open `index.html` in your web browser
-   - Or use a local server:
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-   
-   # Using Node.js (with http-server)
-   npx http-server
-   ```
-
-4. **View the website**
-   - Open `http://localhost:8000` in your browser
+   - Simply open `index.html` in your web browser 
 
 ---
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 | Device | Breakpoint |
 |--------|-----------|
@@ -133,7 +119,7 @@ flood-relief-donation/
 
 ---
 
-## 🎨 Design Principles
+## Design Principles
 
 - **Mobile-First Approach** - Designed for smaller screens first, then scaled up
 - **Component-Based** - Reusable CSS classes for consistency
@@ -143,13 +129,13 @@ flood-relief-donation/
 
 ---
 
-## 🎯 Key Highlights
+## Key Highlights
 
 ### Performance Optimizations
-- ⚡ **Zero External Dependencies** - Pure HTML, CSS, and JavaScript
-- 🎨 **CSS Grid & Flexbox** - Modern layout techniques
-- 📦 **Optimized Code** - Minified and well-organized
-- 🖼️ **Lazy Loading Ready** - Prepared for image optimization
+- **Zero External Dependencies** - Pure HTML, CSS, and JavaScript
+- **CSS Grid & Flexbox** - Modern layout techniques
+- **Optimized Code** - Minified and well-organized
+- **Lazy Loading Ready** - Prepared for image optimization
 
 ### Modern CSS Features
 - CSS Custom Properties (Variables)
@@ -170,46 +156,46 @@ flood-relief-donation/
 
 ---
 
-## 📋 Sections Included
+## Sections Included
 
-### 1️⃣ Hero Section
+### Hero Section
 - Eye-catching banner with call-to-action
 - Background overlay with gradient effects
 
-### 2️⃣ Statistics Section
+### Statistics Section
 - Animated counters showing impact
 - 15K+ families helped, ৳5M+ funds raised
 
-### 3️⃣ Donation Section
+### Donation Section
 - Interactive amount selection (৳100, ৳200, ৳500, ৳1000, ৳5000)
 - Custom amount input field
 - Prominent donate button
 
-### 4️⃣ Donation Plans
+### Donation Plans
 - Medicine for a Family
 - Shelter for a Family
 - Education for a Child
 
-### 5️⃣ Impact Showcase
+### Impact Showcase
 - Meals distributed
 - Clean water provided
 - Medical treatments
 - Children supported
 
-### 6️⃣ About Us
+### About Us
 - Our Team information
 - Our Goal and mission
 - Side-by-side image layout
 
-### 7️⃣ Testimonials
+### Testimonials
 - Real stories from beneficiaries
 - Quote-style cards
 
-### 8️⃣ Newsletter
+### Newsletter
 - Email subscription form
 - Gradient background
 
-### 9️⃣ Footer
+### Footer
 - Quick links
 - Contact information
 - Social media icons
@@ -217,7 +203,7 @@ flood-relief-donation/
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 ```css
 Primary Color:    #e74c3c (Red)
@@ -230,21 +216,7 @@ Background Dark:  #060616
 Success Color:    #27ae60
 ```
 
----
-
-## 🌐 Browser Support
-
-| Browser | Version |
-|---------|---------|
-| Chrome | ✅ Latest |
-| Firefox | ✅ Latest |
-| Safari | ✅ Latest |
-| Edge | ✅ Latest |
-| Opera | ✅ Latest |
-
----
-
-## 📈 Future Improvements
+## Future Improvements
 
 - [ ] Add dark mode toggle
 - [ ] Integrate payment gateway (bKash, Nagad, SSL Commerce)
@@ -259,7 +231,7 @@ Success Color:    #27ae60
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are always welcome! Here's how you can help:
 
@@ -271,55 +243,26 @@ Contributions are always welcome! Here's how you can help:
 
 ---
 
-## 📝 License
+## Author
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Electra51**
 
----
-
-## 👨‍💻 Author
-
-**Safayet Nur Electra**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Safayet Nur Electra](https://www.linkedin.com/in/safayet-nur-electra-a17a901b0/)
-- Email: your.email@example.com
+- **GitHub**: [@Electra51](https://github.com/Electra51)
+- **LinkedIn**: https://www.linkedin.com/in/safayet-nur/
+- **Email**: safayetnurelectra@gmail.com
+- **Portfolio**: https://nextjs-my-portfolio-electra51.vercel.app/
+- **Twitter**: https://x.com/nur_safaye51
 
 ---
 
-## 🙏 Acknowledgments
 
-- Design inspiration from modern donation platforms
-- Icons and imagery from Unsplash
-- Google Fonts for typography
-- Community feedback and support
+## Support
+
+If you like this project, please ⭐ star this repository!
 
 ---
 
-## 📞 Contact & Support
 
-If you have any questions or need support:
-
-- 📧 Email: info@behumble.org
-- 📱 Phone: +880 1234-567890
-- 🌐 Website: [Be Humble Foundation](#)
-- 💬 Issues: [GitHub Issues](https://github.com/yourusername/flood-relief-donation/issues)
-
----
-
-## ⭐ Star this repository
-
-If you found this project helpful, please consider giving it a ⭐!
-
----
-
-<div align="center">
-
-### Made with ❤️ for Bangladesh Flood Relief
-
-**"Be Humble - I'm gonna do it"**
-
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/yourusername)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/flood-relief-donation?style=social)](https://github.com/yourusername/flood-relief-donation)
-
-</div>
+**© 2024 Bangladesh Army University of Engineering & Technology**
+### Made with ❤️ by Electra51
+Happy Coding! 🚀
