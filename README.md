@@ -3,12 +3,12 @@
 <div align="start">
   
   ![Blendify Banner](https://img.shields.io/badge/BEHUMBLE%20-Donation%20Website-6C63FF?style=for-the-badge)
-  [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)]([https://bauet-student-attendance-system.vercel.app/](https://electra51.github.io/BEHUMBLE-flood-donation-app/))
-  [![Lighthouse Score](https://img.shields.io/badge/Lighthouse-90%2B-success?style=for-the-badge&logo=lighthouse)]([https://github.com/Electra51/BAUET-Student-Attendance-System](https://electra51.github.io/BEHUMBLE-flood-donation-app/))
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://electra51.github.io/BEHUMBLE-flood-donation-app/)
+  [![Lighthouse Score](https://img.shields.io/badge/Lighthouse-90%2B-success?style=for-the-badge&logo=lighthouse)](https://electra51.github.io/BEHUMBLE-flood-donation-app/)
   
   **A modern, fully responsive donation website designed to help flood-affected families in Bangladesh. Built with clean code, smooth animations, and an intuitive user experience.**
   
-  [Live Demo](https://electra51.github.io/BEHUMBLE-flood-donation-app/) · [Report Bug](https://github.com/electra51/BAUET-Student-Attendance-System/issues) · [Request Feature](https://github.com/electra51/BAUET-Student-Attendance-System/issues)
+  [Live Demo](https://electra51.github.io/BEHUMBLE-flood-donation-app/) · [Report Bug](https://github.com/electra51/BEHUMBLE-flood-donation-app/issues) · [Request Feature](https://github.com/electra51/BEHUMBLE-flood-donation-app/issues)
 
 </div>
 
